@@ -22,7 +22,7 @@ def hangman():
     alphabet = set(string.ascii_uppercase)
     # Variable used to keep track of what letter the user has guessed
     usedLetter = set()
-    # Essentially have 6 chances (to guess wrong)
+    # Essentially the player loses if they guessed it wrongly six times (game ends on the 6th attempt)
     lives = 6
 
     # When wordLetter reaches 0 it mean u have guessed the word :)
