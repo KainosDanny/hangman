@@ -1,3 +1,4 @@
+# Importing the random library
 import random
 # File name then import the name of the variable
 from word import words
